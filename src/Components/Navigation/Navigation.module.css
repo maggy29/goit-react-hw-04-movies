@@ -1,0 +1,12 @@
+.navigation_link {
+  font-family: "Poppins", "Arial", "Helvetica", sans-serif;
+  font-weight: 600;
+  color: #212121;
+  display: inline-block;
+  width: 60px;
+  text-decoration: none;
+}
+
+.navigation_activeLink {
+  color: #9e2662;
+}
