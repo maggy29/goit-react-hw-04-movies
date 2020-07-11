@@ -52,7 +52,7 @@ export default class MovieDetailsPage extends Component {
         {movie && (
           <>
             <MovieDetails movie={this.state.movie} />
-            <AdditionalInfo props={this.props} />{" "}
+            <AdditionalInfo props={this.props} />
           </>
         )}
         {routes.map(({ label, path, isExact, isInAddInfo, component }) =>

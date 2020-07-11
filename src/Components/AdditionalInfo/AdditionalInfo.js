@@ -14,7 +14,7 @@ function AdditionalInfo({ props }) {
               <NavLink
                 to={{
                   pathname: `${props.match.url}/${forUrlAdd}`,
-                  state: { from: props.location },
+                  state: { from: props.location.state.from },
                 }}
               >
                 {label}
